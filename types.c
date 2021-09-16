@@ -35,5 +35,6 @@ int main()
   printf("Address of pv = %p \n", pv); // same as address of p
 
   // arithmetic on a void* is illegal in both C and C++.
-  // The C standard does not allow void pointer arithmetic. However, GNU C is allowed by considering the size of void is 1.
+  // The C standard does not allow void pointer arithmetic. 
+  // However, GNU C is allowed by considering the size of void is 1.
 }
